@@ -1,0 +1,8 @@
+{
+  "file_name": "sample.txt",
+  "original_char_count": 93,
+  "processed_char_count": 85,
+  "line_count": 4,
+  "word_count": 17,
+  "processed_text": "Hello World\nThis is a sample text file.\nPython is fun.\nI want to build mini projects."
+}

@@ -22,12 +22,17 @@ def read_file(file_path: str):
     files = list(path.glob("*.txt"))
     for fp in files:
         try:
-            read_path = Path(fp)
-            read_text = read_path.read_text(encoding="utf-8")
+            original_path = Path(fp)
+            original_text = original_path.read_text(encoding="utf-8")
+            processed_text = preprocess_text(original_text)
 
-            processed_text = preprocess_text(read_text)
+            read_data.append(build_analysis_result(
+                file_name=Path(original_path).name
+                , original_text=original_text
+                , processed_text=processed_text
+            ))
 
-            read_data.append(processed_text)
+            # read_data.append(processed_text)
 
         except UnicodeDecodeError as e:
             raise UnicodeDecodeError(
@@ -37,13 +42,8 @@ def read_file(file_path: str):
 
     return read_data
 
-
-
-
-
 def preprocess_text(text: str) -> str:
     lines = text.splitlines()
-    print(lines)
 
     cleaned_lines = []
     for line in lines:
@@ -85,19 +85,14 @@ def save_to_json(data: dict, output_path: str) -> None:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
 
-original_text  = read_file(input_path)
-print(original_text)
-# processed_text = preprocess_text(original_text)
+processed_text  = read_file(input_path)
+print(processed_text)
 
-# result = build_analysis_result(
-#     file_name=Path(input_path).name
-#     , original_text=original_text
-#     , processed_text=processed_text
-# )
-
-# save_to_json(result, output_path)
+result = ''
+for i, item in enumerate(processed_text, start=1):
+    result += str(item)
 
 
-# 글자 수
-# 줄 수
-# 단어 수
+save_to_json(result, output_path)
+
+
