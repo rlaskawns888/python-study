@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "line_count": 3,
+    "sentence_count": 3,
+    "word_count": 16
+  },
+  "sentences": [
+    {
+      "index": 1,
+      "text": "안녕하세요 저는 AI 개발자를 준비하고 있습니다.",
+      "length": 27,
+      "word_count": 6
+    },
+    {
+      "index": 2,
+      "text": "AI 서비스 개발은 재미있습니다.",
+      "length": 18,
+      "word_count": 4
+    },
+    {
+      "index": 3,
+      "text": "저는 Python 파일 처리를 연습하고 있습니다.",
+      "length": 27,
+      "word_count": 6
+    }
+  ]
+}

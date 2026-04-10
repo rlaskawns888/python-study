@@ -1,0 +1,32 @@
+{
+  "file_name": "file1.txt",
+  "summary": {
+    "line_count": 3,
+    "sentence_count": 3,
+    "word_count": 16,
+    "char_count": 82
+  },
+  "sentences": [
+    {
+      "index": 1,
+      "text": "1.안녕하세요 저는 AI 개발자를 준비하고 있습니다.",
+      "length": 29,
+      "word_count": 6,
+      "long_word": "1.안녕하세요 저는 AI 개발자를 준비하고 있습니다."
+    },
+    {
+      "index": 2,
+      "text": "1.AI 서비스 개발은 재미있습니다.",
+      "length": 20,
+      "word_count": 4,
+      "long_word": "1.안녕하세요 저는 AI 개발자를 준비하고 있습니다."
+    },
+    {
+      "index": 3,
+      "text": "1.저는 Python 파일 처리를 연습하고 있습니다.",
+      "length": 29,
+      "word_count": 6,
+      "long_word": "1.안녕하세요 저는 AI 개발자를 준비하고 있습니다."
+    }
+  ]
+}

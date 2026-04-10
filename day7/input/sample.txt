@@ -1,0 +1,6 @@
+Hello   World
+
+This is   a sample text file.
+Python is   fun.
+
+I want to build mini projects.
