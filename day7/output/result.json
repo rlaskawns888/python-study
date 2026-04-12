@@ -1,1 +1,60 @@
-"{'file_name': 'sample.txt', 'original_char_count': 93, 'processed_char_count': 85, 'line_count': 4, 'word_count': 17, 'processed_text': 'Hello World\\nThis is a sample text file.\\nPython is fun.\\nI want to build mini projects.'}{'file_name': 'sample2.txt', 'original_char_count': 47, 'processed_char_count': 47, 'line_count': 6, 'word_count': 6, 'processed_text': 'SAMPLE2\\nSAMPLE2\\nSAMPLE2\\nSAMPLE2\\nSAMPLE2\\nSAMPLE2'}{'file_name': 'sample3.txt', 'original_char_count': 47, 'processed_char_count': 47, 'line_count': 6, 'word_count': 6, 'processed_text': 'SAMPLE3\\nSAMPLE3\\nSAMPLE3\\nSAMPLE3\\nSAMPLE3\\nSAMPLE3'}"
+[
+  {
+    "file_name": "sample.txt",
+    "original_char_count": 93,
+    "processed_char_count": 85,
+    "line_count": 4,
+    "word_count": 17,
+    "top_5_words": [
+      [
+        "is",
+        2
+      ],
+      [
+        "hello",
+        1
+      ],
+      [
+        "world",
+        1
+      ],
+      [
+        "this",
+        1
+      ],
+      [
+        "a",
+        1
+      ]
+    ],
+    "processed_text": "Hello World\nThis is a sample text file.\nPython is fun.\nI want to build mini projects."
+  },
+  {
+    "file_name": "sample2.txt",
+    "original_char_count": 47,
+    "processed_char_count": 47,
+    "line_count": 6,
+    "word_count": 6,
+    "top_5_words": [
+      [
+        "sample2",
+        6
+      ]
+    ],
+    "processed_text": "SAMPLE2\nSAMPLE2\nSAMPLE2\nSAMPLE2\nSAMPLE2\nSAMPLE2"
+  },
+  {
+    "file_name": "sample3.txt",
+    "original_char_count": 47,
+    "processed_char_count": 47,
+    "line_count": 6,
+    "word_count": 6,
+    "top_5_words": [
+      [
+        "sample3",
+        6
+      ]
+    ],
+    "processed_text": "SAMPLE3\nSAMPLE3\nSAMPLE3\nSAMPLE3\nSAMPLE3\nSAMPLE3"
+  }
+]

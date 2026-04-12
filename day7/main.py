@@ -37,10 +37,6 @@ def read_file(file_path: str):
 
     return read_data
 
-
-
-
-
 def preprocess_text(text: str) -> str:
     lines = text.splitlines()
     print(lines)
