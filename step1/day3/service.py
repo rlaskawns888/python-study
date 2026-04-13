@@ -1,5 +1,5 @@
-from utils import validate_input, preprocess
-from llm import call_llm
+from step1.day3.utils import validate_input, preprocess
+from step1.day3.llm import call_llm
 
 def postprocess(result):
     return result + "[END]"

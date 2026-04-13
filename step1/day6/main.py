@@ -1,4 +1,4 @@
-from apiTemplate import get_user, create_post
+from step1.day6.apiTemplate import get_user, create_post
 
 user = get_user(1)
 print(user["name"])
