@@ -4,7 +4,7 @@ from pydantic import BaseModel, Field
 app = FastAPI()
 
 class ChatRequest(BaseModel): 
-    message: str = Field(..., min_length=1, max_length=1000)
+    message: str = Field(..., min_length=1, max_length=10)
 
 class ChatResponse(BaseModel):
     answer: str
